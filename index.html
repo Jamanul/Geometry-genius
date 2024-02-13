@@ -52,8 +52,11 @@
                             <input type="text" placeholder="height" class="w-24 p-2 text-2xl bg-gray-200" id="length-area">
                                 <span class="text-2xl">cm</span>
                         </div>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary text-white w-full">Calculate</button>
+                        <div>
+                            <p>Area  <span id="rectangle-area"></span><span>cm <sup>2</sup></span></p>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary text-white w-full" onclick=" rectangleCalculation()">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -118,6 +121,7 @@
 
     </footer>
     <script src="scripts/triangle-calculation.js"></script>
+    <script src="scripts/rectangle-calculation.js"></script>
 </body>
 
 </html>
