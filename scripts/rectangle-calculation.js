@@ -5,7 +5,7 @@ function rectangleCalculation(){
     console.log(width)
 
 
-    const lengthArea = document.getElementById('length-area')
+    const lengthArea = document.getElementById('length-area1')
     const lengthValue = lengthArea.value;
     const length = parseFloat(lengthValue);
     console.log(length)
